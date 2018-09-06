@@ -11,6 +11,7 @@ return [
     | login page.
     |
     */
+
     'name' => 'Laravel-admin',
 
     /*
