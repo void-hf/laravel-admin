@@ -12,8 +12,7 @@ return [
     |
     */
 
-    'name' => 'Laravel-admin',
-
+    'name' => '课程编排',
     /*
     |--------------------------------------------------------------------------
     | Laravel-admin logo
@@ -23,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel</b> admin',
+    'logo' => '<b>课程编排</b> admin',
 
     /*
     |--------------------------------------------------------------------------

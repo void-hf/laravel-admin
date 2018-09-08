@@ -65,6 +65,7 @@ class ActivityController extends Controller
             $form->text('activity_name', "活动名称")->default('activity_name')->rules("required");//required为名称规则，具体信息的定义在recourse=>lang=>zh_CN=>validation.php文件中
             $form->timeRange('start_time', 'end_time', '选择活动的时间范围');
             $form->switch('is_pass', '是否通过审核');
+            $form->text('activity_address' ,"基地地址");
             $form->map('lat', 'lng', "请选择基地地点")->useTencentMap();
             $form->mobile('phone', '手机');
             $form->number("integral_num","打卡成功后获得的积分");
